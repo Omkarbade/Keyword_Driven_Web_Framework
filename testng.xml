@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/OMKAR BADE/IdeaProjects/Keyword_Driven_Web_Framework/src/test/java/LoginTest.java">
+        <classes>
+            <class name="LoginTest">
+                <methods>
+                    <include name="loginTest"/>
+                    <include name="signUpTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
