@@ -1,27 +1,14 @@
-import Base.Base;
-import engine.KeyWordEngine;
-
-
+import Utility.KeywordDrivenEngine;
 import org.testng.annotations.Test;
 
+public class LoginTest {
+    public KeywordDrivenEngine keyword;
 
-public class LoginTest extends Base {
-    public KeyWordEngine keyWordEngine;
-
-//login page test
+    //Method: To Test Login Data
     @Test
-    public void loginTest(){
-        keyWordEngine = new KeyWordEngine();
-        keyWordEngine.startExecution("Sheet1");
+    public void loginTest() {
 
+        keyword = new KeywordDrivenEngine();
+        keyword.startExecution("LoginTestData");
     }
-
-// signup page test
-    @Test
-    public void signUpTest() {
-        keyWordEngine = new KeyWordEngine();
-        keyWordEngine.startExecution("Sheet2");
-    }
-
-
 }

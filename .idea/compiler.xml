@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Keyword_Driven_Web_Framework" />
+        <module name="Keyword_Driven_Framework" />
       </profile>
     </annotationProcessing>
   </component>
